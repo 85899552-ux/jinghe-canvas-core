@@ -1,0 +1,16 @@
+{
+  "name": "jinghe-canvas-core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Reusable TypeScript logic for creative canvas connections, media references, prompt mentions, pointer gestures and minimap coordinates.",
+  "engines": { "node": ">=22.18.0" },
+  "exports": { ".": "./src/index.ts" },
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "typecheck": "tsc --noEmit",
+    "demo": "node --experimental-strip-types examples/demo.mjs"
+  },
+  "devDependencies": { "typescript": "5.9.3" }
+}
